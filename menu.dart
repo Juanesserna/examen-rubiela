@@ -1,8 +1,9 @@
 import 'dart:io';
 import 'listarProductos.dart';
+import 'addproduct.dart';
 
 void main() {
-  List<Map<String, dynamic>> libros = [];
+  List<Map<String, dynamic>> productos = [];
   bool activo = true;
 
   while (activo) {
@@ -13,11 +14,11 @@ void main() {
     String? opcion = stdin.readLineSync();
 
     switch (opcion) {
-      /* case '1':
-        agregarLibro(libros);
-        break; */
+      case '1':
+        agregarProducto(productos);
+        break;
       case '2':
-        listarProducto(libros);
+        listarProducto(productos);
         break;
       /*   case '3':
         actualizarLibro(libros);

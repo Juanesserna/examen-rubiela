@@ -14,10 +14,9 @@ void listarProducto(List<Map<String, dynamic>> producto) {
     //// "i" comienza en 0 y aumenta hasta llegar al último producto.
     print(
       // Mostramos la información del Producto actual.
-      '${i + 1}. NombreIndice: ${producto[i]['NombreIndice']} | ' // "i + 1" muestra el número del producto comenzando desde 1.
-      'Nombre: ${producto[i]['nombre']} | '
-      'Precio: ${producto[i]['precio']} | '
-      'Cantidad: ${producto[i]['cantidad']}',
+      '${i + 1}. Nombre: ${producto[i]['Nombre Producto']} | '
+      'Precio: ${producto[i]['Precio']} | '
+      'Cantidad: ${producto[i]['Cantidad']}',
     );
   }
 }
