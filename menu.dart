@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'listarProductos.dart';
 import 'addproduct.dart';
+import 'actualizarproducto.dart';
 
 void main() {
   List<Map<String, dynamic>> productos = [];
@@ -20,10 +21,10 @@ void main() {
       case '2':
         listarProducto(productos);
         break;
-      /*   case '3':
-        actualizarLibro(libros);
+      case '3':
+        actualizarProducto(productos);
         break;
-      case '4':
+      /*case '4':
         eliminarLibro(libros);
         break; */
       case '5':
