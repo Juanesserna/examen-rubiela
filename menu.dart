@@ -16,7 +16,8 @@ void main() {
         agregarProducto(producto);
         break; */
       case '2':
-        listarProducto(producto);
+        /*         listarProducto(producto);
+ */
         break;
       /*   case '3':
         actualizarProducto(producto);
