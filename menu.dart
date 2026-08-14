@@ -2,6 +2,7 @@ import 'dart:io';
 import 'listarProductos.dart';
 import 'addproduct.dart';
 import 'actualizarproducto.dart';
+import 'eliminar-producto.dart';
 
 void main() {
   List<Map<String, dynamic>> productos = [];
@@ -24,15 +25,15 @@ void main() {
       case '3':
         actualizarProducto(productos);
         break;
-      /*case '4':
-        eliminarLibro(libros);
-        break; */
+      case '4':
+        eliminarProducto(productos);
+        break;
       case '5':
-        print('¡Hasta luego!');
+        print('Chao Gonorrea');
         activo = false;
         break;
       default:
-        print('Opción inválida. Intenta de nuevo.');
+        print('Opción inválida, intenta de nuevo');
     }
   }
 }
